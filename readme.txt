@@ -1,8 +1,8 @@
-##🔴🔵 Red-Blue Nim Game
+🔴🔵 #Red-Blue Nim Game
 Author: Lokeshwar Kodipunjula
 Student ID: 1002175121
 
-###🧠 Overview
+🧠 #Overview
 This project implements a command-line version of the Red-Blue Nim game in Java—a strategic two-pile marble game inspired by the classic game of Nim. Players alternate turns removing marbles from red and blue piles, with gameplay variations based on standard and misère rules:
 
 Standard Version: The player who removes the last marble loses.
