@@ -1,43 +1,66 @@
-Name: Lokeshwar Kodipunjula
+🔴🔵 Red-Blue Nim Game
+Author: Lokeshwar Kodipunjula
 Student ID: 1002175121
 
-# Red-Blue Num Game
+🧠 Overview
+This project implements a command-line version of the Red-Blue Nim game in Java—a strategic two-pile marble game inspired by the classic game of Nim. Players alternate turns removing marbles from red and blue piles, with gameplay variations based on standard and misère rules:
 
-## Overview
-This project implements a command-line version of the red_blue_num game in Java. Red-Blue Nim is a variant of the classic game of Nim, where players take turns removing marbles from two different piles - one red and one blue. The game has two versions: standard and misère. In the standard version, the player who removes the last marble loses the game, while in the misère version, the player who removes the last marble wins.
+Standard Version: The player who removes the last marble loses.
 
-## Features
-- Command-line interface for easy interaction.
-- Support for both standard and misère versions of the game.
-- Option to choose the starting player.
-- Adjustable search depth for the computer player's moves.
+Misère Version: The player who removes the last marble wins.
 
-Program with the following command-line arguments:
-- `<red-marbles>`: Number of red marbles at the beginning of the game.
-- `<blue-marbles>`: Number of blue marbles at the beginning of the game.
-- `<version>`: (Optional) Game version (`standard` or `misere`). Default is `standard`.
-- `<first-player>`: (Optional) Starting player (`computer` or `human`). Default is `computer`.
-- `<search-depth>`: (Optional) Depth of search for computer player's moves. Default is `1`.
+🎮 Features
+Simple command-line interface for interactive gameplay.
+
+Support for standard and misère versions.
+
+Option to choose the starting player: human or computer.
+
+Adjustable search depth for computer AI using game tree evaluation.
+
+⚙️ Command-Line Arguments
+Run the program with the following arguments:
+java RedBlueNim <red-marbles> <blue-marbles> [version] [first-player] [search-depth]
+
+Arguments:
+<red-marbles>: (int) Initial number of red marbles.
+
+<blue-marbles>: (int) Initial number of blue marbles.
+
+[version]: (Optional) Game mode: standard (default) or misere.
+
+[first-player]: (Optional) Who plays first: computer (default) or human.
+
+[search-depth]: (Optional) Depth of the computer’s move search. Default is 1.
+
+🛠️ How to Compile and Run
+✅ Requirements:
+Java Development Kit (JDK) must be installed.
+
+Download from Oracle or use OpenJDK.
+
+📦 Compilation:
+javac RedBlueNim.java
+
+This will generate RedBlueNim.class.
+
+▶️ Execution:
+Run the game with your chosen arguments:
+java RedBlueNim 5 7 standard computer 10
+
+📝 Example:
+javac RedBlueNim.java
 
 
-## How to Run
+java RedBlueNim 3 4 misere human 2
+This command starts the game with:
 
-#Requirements:
-To compile the Java code, you must have the Java Development Kit (JDK) installed on your system. If you haven't installed it yet, you can download and install it from the official Oracle website or use OpenJDK, which is an open-source alternative.
+3 red marbles
 
-Once the JDK is installed, you can compile the Java source code using the javac command. Here's how to do it:
+4 blue marbles
 
-1. Open a terminal or command prompt.
+Misère version
 
-2. Navigate to the directory containing your Java source file (red_blue_num.java in this case).
+Human goes first
 
-3. Run the following command to compile the Java source file:
-
-"javac RedBlueNim.java"
-
-#This command will compile the red_blue_num.java file and generate the corresponding bytecode file (red_blue_num.class).
-
-==>After successful compilation, you can run the Java program using the java command followed by the class name. For example:
-
-"java RedBlueNim 5 7 standard computer 10"
-
+Search depth of 2 for the computer
