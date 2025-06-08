@@ -1,4 +1,4 @@
-###🔴🔵 Red-Blue Nim Game
+##🔴🔵 Red-Blue Nim Game
 Author: Lokeshwar Kodipunjula
 Student ID: 1002175121
 
